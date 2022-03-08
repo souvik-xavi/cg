@@ -7,7 +7,7 @@ public class sumOfElements {
 		for(int number:numbers) {
 			sum +=number;
 			}
-		System.out.println("uum="+ sum);
+		System.out.println("sum="+ sum);
 		}
 
 }
