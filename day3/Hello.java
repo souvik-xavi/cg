@@ -18,7 +18,7 @@ class SayHello{
 public class Hello {
 	public static void main(String[] args) {
 		SayHello object = new SayHello();
-        System.out.println(object.get().val_a);
+        System.out.println(object.get().val_b);
         
     }
 
