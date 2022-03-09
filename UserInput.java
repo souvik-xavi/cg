@@ -19,7 +19,7 @@ public class UserInput {
         System.out.print("Enter text: ");
         String myString = input.next();
         System.out.println("Text entered = " + myString);
+        input.close();
     }
-
 
 }

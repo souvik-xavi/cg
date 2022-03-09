@@ -8,10 +8,10 @@ public class ConcatArray {
 
         int aLen = array1.length;
         int bLen = array2.length;
-        int[] result = new int[aLen + bLen-1];
+        int[] result = new int[aLen + bLen+1];
 
         System.arraycopy(array1, 0, result, 0, aLen);//src,startingposition,destination,startingpositionofDestination,length
-        System.arraycopy(array2, 0, result, aLen, bLen-1);
+        System.arraycopy(array2, 0, result, aLen+1, bLen);
 
         System.out.println(Arrays.toString(result));
     }
